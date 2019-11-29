@@ -1,7 +1,7 @@
 import socket
 
 server_socket = socket.socket()
-server_socket.bind(('10.39.0.3', 5000)) 
+server_socket.bind(('10.39.0.3', 8080)) 
 
 server_socket.listen(2)
 conn, address = server_socket.accept() 
